@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+
+    <style>
+        .winner{
+            color: green;
+        }
+        .loser{
+            color:red;
+        }
+    </style>
+</head>
+<body  >
+          <section class="section">
+          <div class="container"  data-theme="light">
+            <div class="columns">
+                <div class="column is-half
+                is-offset-one-quarter">
+                    <div class="card ">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="data:image/jpeg;base64,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" alt="">
+                            </figure>
+                        </div>
+                        <header class="card-header">
+                          <p class="card-header-title">Responsive ScoreBoard</p>
+                          <button class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                              <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                          </button>
+                        </header>
+                        <div class="card-content ">
+                          <div class="content">
+                            <h1 class="title is-1"><span id="player1">0</span> to <span id="player2">0</span></h1>
+                            <p class="subtitle">use below button for score modifications</p>
+                           
+                            <label for="scoreRange" >playing for :</label>
+                            <div class="select is-rounded is-small">
+                                <select id ="scoreRange">  
+                                <option value="3">3</option>
+                                <option value="5">5</option>
+                                <option value="7">7</option>
+                                <option value="9">9</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <button id="p1button" class="button is-success">+1 player1</button>
+                                <button id="p2button" class="button is-link">+1 player2</button>
+                                <button id="reset" class="button is-danger">reset</button>
+                            </div>
+                           
+                          </div>
+                        </div>
+                        
+                      </div>
+                </div>
+            </div>
+          </div>
+          </section>
+      
+       
+
+    
+    
+
+    <script src="scoreBoard.js"></script>
+</body>
+</html>
