@@ -4,3 +4,6 @@ This project is a responsive web application built using HTML, CSS (Bulma framew
 sample outputs
 
 ![Screenshot 2025-03-06 121255](https://github.com/user-attachments/assets/00d6cd47-b73e-49f5-8a0a-abb9bb7278c5)
+
+![Screenshot 2025-03-06 121419](https://github.com/user-attachments/assets/50eb2818-0099-4e6c-ae6a-4fc84e702ae6)
+
